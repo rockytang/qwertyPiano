@@ -1,0 +1,24 @@
+{
+  "name": "qwertyPiano",
+  "version": "1.0.0",
+  "description": "Know how to type? Learn how to play cool piano tunes in 2 seconds!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rockytang/qwertyPiano.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rockytang/qwertyPiano/issues"
+  },
+  "homepage": "https://github.com/rockytang/qwertyPiano",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "express": "^4.12.4",
+    "morgan": "^1.5.3"
+  }
+}

@@ -54,7 +54,7 @@ $(document).ready(function() {
 
 	wrapInPTag(convertToQWERTY(twinkle));
 
-	$('.ui.dropdown').dropdown();
+	// $('.ui.dropdown').dropdown();
 
 	$( ".ui.teal.submit.button" ).click(function() {
   	startPlaying();
