@@ -10,10 +10,6 @@ app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-app.get('/', function(req,res){
-  res.send("hello world")
-});
-
 var port = process.env.PORT || 9000;
 
 var server = app.listen(port, function(){
